@@ -1,0 +1,116 @@
+.contactPage{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactPageTitle{
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 2;
+}
+
+.clientDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    margin: 0;
+}
+
+.clientImgs{
+    margin:1rem 0;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.clientImg {
+    object-fit: cover;
+    width: 23%;
+    min-width: 9rem;
+    margin: 1rem auto;
+    padding: 0.25rem;
+    background: rgb(253, 252, 252);
+    border-radius: 0.3rem;
+    border: 2px solid black;
+    transition: color 0.3s ease, border 0.3s ease, transform 0.3s ease;
+  
+    &:hover {
+      color: purple;
+      border: px solid purple;
+      transform: scale(1.2);
+    }
+  }
+
+#clients{
+    padding: 2rem;
+}
+
+.contactDesc{
+    padding:1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm{
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name,.email,.msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding:0.5rem 1rem;
+    color:white;
+    border:none;
+    border-radius: 0.5rem;
+    background: rgb(21, 21, 21);
+}
+
+.submitBtn{
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    height: 2rem;
+    display: flex;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    transition: color 0.3s ease, border 0.3s ease, transform 0.3s ease;
+    &:hover {
+        color: purple;
+        border: 1px solid purple;
+        transform: scale(1.3);
+    }
+}
+
+.links{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    object-fit: cover;
+    height: 3rem;
+    margin: 0 0.3rem;
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: scale(1.3);
+    }
+}

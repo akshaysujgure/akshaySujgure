@@ -1,2 +1,5 @@
-Akshay Sujgure 
-JS txt
+- 🔭 I’m currently working on Java Script, Python
+- 🌱 I’m currently learning next.js, express.js exploring other JS platforms.
+- 🤔 I’m looking for help with backend dev technologies.
+- 💬 Ask me about Frontend, JS, Python, React, Django 
+- 📫 How to reach me: Email = sujgureakshay@gmail.com

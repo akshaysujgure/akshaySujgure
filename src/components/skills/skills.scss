@@ -1,0 +1,112 @@
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .skillTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .skillDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 51rem;
+    padding: 0 2rem;
+    word-wrap: break-word;
+  }
+  
+  .skillBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+  }
+  
+  .skillBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(21, 21, 21);
+  }
+  
+  .skillBarImg {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .skillBarText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+  }
+  
+  .skillBarText > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Display items vertically */
+    align-items: flex-start;
+  }
+  
+  .skillBarText > ul > li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem; /* Add margin between list items */
+    &:hover{
+        color: purple;
+    }
+  }
+  
+  .skillBarText > ul > li > img {
+    height: 1.5rem; /* Adjust the height as needed */
+    width: 1.5rem;  /* Adjust the width as needed */
+    margin-right: 0.5rem;
+  }
+  
+  
+  .skillBarText > p {
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+  
+  .skillBarText > h2 {
+    word-wrap: break-word;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .skillBarText > p {
+      font-size: 5vw;
+    }
+  }
+  
+  @media screen and (max-width: 373px) {
+    .skillBarText > h2 {
+      font-size: calc(1rem + 1vw);
+    }
+  }
+  
+  @media screen and (max-width: 323px) {
+    .skillBarText > h2 {
+      font-size: calc(0.8rem + 0.8vw);
+    }
+    .skillBarImg {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+  }  
