@@ -17,7 +17,7 @@ const Skills = () => {
   return (
     <section id="skills">
         <span className="skillTitle">What I do</span>
-        <span className="skillDisc">I am Software Devlopment Engineer and Automation framework devlopment and skilled and experianced with various technology mentioned bellow.</span>
+        <span className="skillDisc">I am Software Development Engineer and Automation framework devlopment and skilled and experianced with various technologies mentioned bellow.</span>
         <div className="skillBars">
             <div className="skillBar">
                 <img src={lang} alt="language" className="skillBarImg" />
@@ -38,7 +38,7 @@ const Skills = () => {
             <div className="skillBar">
                 <img src={dev} alt="devlopment" className="skillBarImg" />
                 <div className="skillBarText">
-                    <h2>Devlopment</h2>
+                    <h2>Development</h2>
                     <ul>
                         <li>
                             <img src={react} alt="React Icon" className="icon" />    

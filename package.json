@@ -19,8 +19,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+=======
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+>>>>>>> e26dea07e3e5695ba42b17e3702d239794cc9340
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
